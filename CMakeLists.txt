@@ -10,8 +10,8 @@ ADD_LIBRARY( httpsRequests STATIC ${sources} )
 
 target_include_directories(httpsRequests PUBLIC ${CMAKE_SOURCE_DIR}/include )
 
-#find_library(CURL NAMES libcurl HINTS ${CMAKE_SOURCE_DIR}/lib/win64)
-#find_library(SSL NAMES libssl ./lib/win64 HINTS ${CMAKE_SOURCE_DIR}/lib/win64)
-#find_library(CRYPTO NAMES libcrypto ./lib/win64 HINTS ${CMAKE_SOURCE_DIR}/lib/win64)
+find_library(CURL NAMES libcurl HINTS ${CMAKE_SOURCE_DIR}/lib/win64)
+find_library(SSL NAMES libssl ./lib/win64 HINTS ${CMAKE_SOURCE_DIR}/lib/win64)
+find_library(CRYPTO NAMES libcrypto ./lib/win64 HINTS ${CMAKE_SOURCE_DIR}/lib/win64)
 
 #target_link_libraries(diveraWin64 PUBLIC ${CURL} ${SSL} ${CRYPTO})
