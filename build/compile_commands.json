@@ -1,0 +1,12 @@
+[
+{
+  "directory": "H:/OneDrive/Dokumente/GitHub/httpsRequests/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/httpsRequests.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\httpsRequests.dir\\src\\httpsRequests.cpp.obj -c H:\\OneDrive\\Dokumente\\GitHub\\httpsRequests\\src\\httpsRequests.cpp",
+  "file": "H:/OneDrive/Dokumente/GitHub/httpsRequests/src/httpsRequests.cpp"
+},
+{
+  "directory": "H:/OneDrive/Dokumente/GitHub/httpsRequests/build/examples/simpleRequest",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/simpleRequest.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\simpleRequest.dir\\simpleRequest.cpp.obj -c H:\\OneDrive\\Dokumente\\GitHub\\httpsRequests\\examples\\simpleRequest\\simpleRequest.cpp",
+  "file": "H:/OneDrive/Dokumente/GitHub/httpsRequests/examples/simpleRequest/simpleRequest.cpp"
+}
+]
