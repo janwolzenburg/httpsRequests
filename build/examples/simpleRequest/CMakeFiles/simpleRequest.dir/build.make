@@ -90,8 +90,6 @@ examples\simpleRequest\simpleRequest.exe: examples\simpleRequest\CMakeFiles\simp
 examples\simpleRequest\simpleRequest.exe: examples\simpleRequest\CMakeFiles\simpleRequest.dir\build.make
 examples\simpleRequest\simpleRequest.exe: libhttpsRequests.a
 examples\simpleRequest\simpleRequest.exe: H:\HiDrive\Sonstiges\Projekte\Other\divera\code\divera\lib\win64\libcurl.lib
-examples\simpleRequest\simpleRequest.exe: C:\msys64\mingw64\lib\libssl.dll.a
-examples\simpleRequest\simpleRequest.exe: C:\msys64\mingw64\lib\libcrypto.dll.a
 examples\simpleRequest\simpleRequest.exe: examples\simpleRequest\CMakeFiles\simpleRequest.dir\linkLibs.rsp
 examples\simpleRequest\simpleRequest.exe: examples\simpleRequest\CMakeFiles\simpleRequest.dir\objects1
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=H:\OneDrive\Dokumente\GitHub\httpsRequests\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable simpleRequest.exe"
