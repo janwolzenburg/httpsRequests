@@ -118,9 +118,9 @@ CMakeFiles\httpsRequests.dir\src\httpsRequests.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/array \
  C:/msys64/mingw64/include/c++/11.2.0/utility \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_relops.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/curl.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/curlver.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/system.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/curl.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/curlver.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/system.h \
  C:/msys64/mingw64/x86_64-w64-mingw32/include/winsock2.h \
  C:/msys64/mingw64/x86_64-w64-mingw32/include/_mingw_unicode.h \
  C:/msys64/mingw64/x86_64-w64-mingw32/include/windows.h \
@@ -354,11 +354,10 @@ CMakeFiles\httpsRequests.dir\src\httpsRequests.cpp.obj: \
  C:/msys64/mingw64/x86_64-w64-mingw32/include/in6addr.h \
  C:/msys64/mingw64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
  C:/msys64/mingw64/x86_64-w64-mingw32/include/mstcpip.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/easy.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/multi.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/curl.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/urlapi.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/options.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/header.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/websockets.h \
- H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/curl.h
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/easy.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/multi.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/curl.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/urlapi.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/options.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/header.h \
+ H:/OneDrive/Dokumente/GitHub/curl-7.88.1_2-win64-mingw/include/curl/websockets.h

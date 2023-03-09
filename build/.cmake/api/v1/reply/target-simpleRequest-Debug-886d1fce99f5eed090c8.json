@@ -29,25 +29,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 4,
+				"line" : 3,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 9,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 10,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 5,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -69,6 +75,10 @@
 				{
 					"backtrace" : 4,
 					"path" : "H:/OneDrive/Dokumente/GitHub/httpsRequests/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "H:/OneDrive/Dokumente/GitHub/httpsRequests/../curl-7.88.1_2-win64-mingw/include"
 				}
 			],
 			"language" : "CXX",
