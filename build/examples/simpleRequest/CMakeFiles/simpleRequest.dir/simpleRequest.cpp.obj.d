@@ -104,17 +104,40 @@ examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/functional_hash.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/hash_bytes.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/basic_string.tcc \
+ C:/msys64/mingw64/include/c++/11.2.0/iostream \
+ C:/msys64/mingw64/include/c++/11.2.0/ostream \
+ C:/msys64/mingw64/include/c++/11.2.0/ios \
+ C:/msys64/mingw64/include/c++/11.2.0/exception \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/exception_ptr.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/cxxabi_init_exception.h \
+ C:/msys64/mingw64/include/c++/11.2.0/typeinfo \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/nested_exception.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/ios_base.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/locale_classes.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/locale_classes.tcc \
+ C:/msys64/mingw64/include/c++/11.2.0/system_error \
+ C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/msys64/mingw64/include/c++/11.2.0/stdexcept \
+ C:/msys64/mingw64/include/c++/11.2.0/streambuf \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/streambuf.tcc \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/basic_ios.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/locale_facets.h \
+ C:/msys64/mingw64/include/c++/11.2.0/cwctype \
+ C:/msys64/mingw64/x86_64-w64-mingw32/include/wctype.h \
+ C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/streambuf_iterator.h \
+ C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/locale_facets.tcc \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/basic_ios.tcc \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/ostream.tcc \
+ C:/msys64/mingw64/include/c++/11.2.0/istream \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/istream.tcc \
  H:/OneDrive/Dokumente/GitHub/httpsRequests/include/httpsRequests.h \
  C:/msys64/mingw64/include/c++/11.2.0/vector \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_vector.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_bvector.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc \
- C:/msys64/mingw64/include/c++/11.2.0/exception \
- C:/msys64/mingw64/include/c++/11.2.0/bits/exception_ptr.h \
- C:/msys64/mingw64/include/c++/11.2.0/bits/cxxabi_init_exception.h \
- C:/msys64/mingw64/include/c++/11.2.0/typeinfo \
- C:/msys64/mingw64/include/c++/11.2.0/bits/nested_exception.h \
  H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/curl.h \
  H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/curlver.h \
  H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/system.h \
