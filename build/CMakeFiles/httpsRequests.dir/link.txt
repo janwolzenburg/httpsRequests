@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc libhttpsRequests.a CMakeFiles/httpsRequests.dir/src/httpsRequests.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe libhttpsRequests.a

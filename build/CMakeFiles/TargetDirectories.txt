@@ -1,8 +1,0 @@
-H:/OneDrive/Dokumente/GitHub/httpsRequests/build/CMakeFiles/httpsRequests.dir
-H:/OneDrive/Dokumente/GitHub/httpsRequests/build/CMakeFiles/edit_cache.dir
-H:/OneDrive/Dokumente/GitHub/httpsRequests/build/CMakeFiles/rebuild_cache.dir
-H:/OneDrive/Dokumente/GitHub/httpsRequests/build/examples/CMakeFiles/edit_cache.dir
-H:/OneDrive/Dokumente/GitHub/httpsRequests/build/examples/CMakeFiles/rebuild_cache.dir
-H:/OneDrive/Dokumente/GitHub/httpsRequests/build/examples/simpleRequest/CMakeFiles/simpleRequest.dir
-H:/OneDrive/Dokumente/GitHub/httpsRequests/build/examples/simpleRequest/CMakeFiles/edit_cache.dir
-H:/OneDrive/Dokumente/GitHub/httpsRequests/build/examples/simpleRequest/CMakeFiles/rebuild_cache.dir
