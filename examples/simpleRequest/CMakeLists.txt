@@ -1,4 +1,8 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.2)
+project( simpleRequest CXX )
+
+set( CMAKE_C_STANDARD 11 )
+set( CMAKE_CXX_STANDARD 14 )
 
 add_executable( simpleRequest ${CMAKE_CURRENT_SOURCE_DIR}/simpleRequest.cpp ) 
 target_include_directories( simpleRequest PUBLIC ${CMAKE_SOURCE_DIR}/include )
