@@ -266,7 +266,7 @@ httpsRequests_BINARY_DIR:STATIC=H:/OneDrive/Dokumente/GitHub/httpsRequests/build
 httpsRequests_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-httpsRequests_LIB_DEPENDS:STATIC=general;H:/HiDrive/Sonstiges/Projekte/Other/divera/code/divera/lib/win64/libcurl.lib;general;C:/msys64/mingw64/lib/libssl.dll.a;general;C:/msys64/mingw64/lib/libcrypto.dll.a;
+httpsRequests_LIB_DEPENDS:STATIC=general;H:/HiDrive/Sonstiges/Projekte/Other/divera/code/divera/lib/win64/libcurl.lib;
 
 //Value Computed by CMake
 httpsRequests_SOURCE_DIR:STATIC=H:/OneDrive/Dokumente/GitHub/httpsRequests
