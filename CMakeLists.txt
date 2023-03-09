@@ -10,11 +10,13 @@ target_include_directories( httpsRequests PUBLIC ${CMAKE_SOURCE_DIR}/include )
 
 
 set( CURL_DIR ${CMAKE_SOURCE_DIR}/../curl-7.88.1_2-win64-mingw )
-
 target_include_directories( httpsRequests PUBLIC ${CURL_DIR}/include )
 find_library( CURL NAMES libcurl PATHS ${CURL_DIR} )
-
-
 target_link_libraries( httpsRequests ${CURL} )
 
-add_subdirectory( examples )
+
+add_executable( simpleRequest ${CMAKE_SOURCE_DIR}/examples/simpleRequest.cpp )
+target_include_directories( simpleRequest PUBLIC ${CMAKE_SOURCE_DIR}/include )
+target_include_directories( simpleRequest PUBLIC ${CURL_DIR}/include )
+target_link_libraries( simpleRequest httpsRequests )
+target_link_libraries( simpleRequest ${CURL} )
