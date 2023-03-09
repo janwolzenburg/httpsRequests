@@ -138,6 +138,9 @@ examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_vector.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/stl_bvector.h \
  C:/msys64/mingw64/include/c++/11.2.0/bits/vector.tcc \
+ C:/msys64/mingw64/include/c++/11.2.0/array \
+ C:/msys64/mingw64/include/c++/11.2.0/utility \
+ C:/msys64/mingw64/include/c++/11.2.0/bits/stl_relops.h \
  H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/curl.h \
  H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/curlver.h \
  H:/OneDrive/Dokumente/GitHub/httpsRequests/include/curl/system.h \

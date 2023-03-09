@@ -106,17 +106,43 @@ examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\ms
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\functional_hash.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\hash_bytes.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\basic_string.tcc
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\iostream
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\ostream
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\ios
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\exception
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\exception_ptr.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\cxxabi_init_exception.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\typeinfo
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\nested_exception.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\ios_base.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\locale_classes.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\locale_classes.tcc
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\system_error
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\error_constants.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\stdexcept
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\streambuf
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\streambuf.tcc
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\basic_ios.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\locale_facets.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\cwctype
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\x86_64-w64-mingw32\include\wctype.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_base.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\streambuf_iterator.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_inline.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\locale_facets.tcc
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\basic_ios.tcc
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\ostream.tcc
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\istream
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\istream.tcc
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: H:\OneDrive\Dokumente\GitHub\httpsRequests\include\httpsRequests.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\vector
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\stl_uninitialized.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\stl_vector.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\stl_bvector.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\vector.tcc
-examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\exception
-examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\exception_ptr.h
-examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\cxxabi_init_exception.h
-examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\typeinfo
-examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\nested_exception.h
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\array
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\utility
+examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: C:\msys64\mingw64\include\c++\11.2.0\bits\stl_relops.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: H:\OneDrive\Dokumente\GitHub\httpsRequests\include\curl\curl.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: H:\OneDrive\Dokumente\GitHub\httpsRequests\include\curl\curlver.h
 examples\simpleRequest\CMakeFiles\simpleRequest.dir\simpleRequest.cpp.obj: H:\OneDrive\Dokumente\GitHub\httpsRequests\include\curl\system.h
@@ -447,6 +473,8 @@ C:\msys64\mingw64\include\c++\11.2.0\debug\assertions.h:
 
 C:\msys64\mingw64\include\c++\11.2.0\bits\stl_iterator.h:
 
+C:\msys64\mingw64\include\c++\11.2.0\stdexcept:
+
 C:\msys64\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\gthr-default.h:
 
 C:\msys64\mingw64\include\c++\11.2.0\cwchar:
@@ -480,6 +508,8 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\_mingw_mac.h:
 C:\msys64\mingw64\x86_64-w64-mingw32\include\_mingw_secapi.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\rpcndr.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\locale_facets.tcc:
 
 C:\msys64\mingw64\include\c++\11.2.0\bits\exception.h:
 
@@ -530,6 +560,8 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\locale.h:
 C:\msys64\mingw64\x86_64-w64-mingw32\include\stdio.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\rtmintrin.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\istream:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\sec_api\stdio_s.h:
 
@@ -615,6 +647,8 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\pthread_unistd.h:
 
 C:\msys64\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\atomic_word.h:
 
+C:\msys64\mingw64\include\c++\11.2.0\bits\basic_ios.tcc:
+
 C:\msys64\mingw64\include\c++\11.2.0\ext\alloc_traits.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\winsmcrd.h:
@@ -649,21 +683,15 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\pshpack4.h:
 
 C:\msys64\mingw64\include\c++\11.2.0\bits\basic_string.tcc:
 
-H:\OneDrive\Dokumente\GitHub\httpsRequests\include\httpsRequests.h:
+C:\msys64\mingw64\include\c++\11.2.0\iostream:
 
-C:\msys64\mingw64\x86_64-w64-mingw32\include\psdk_inc\_ip_types.h:
-
-C:\msys64\mingw64\x86_64-w64-mingw32\include\threadpoollegacyapiset.h:
-
-C:\msys64\mingw64\include\c++\11.2.0\vector:
+C:\msys64\mingw64\include\c++\11.2.0\ostream:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\wmmintrin.h:
 
 C:\msys64\mingw64\include\c++\11.2.0\bits\stl_uninitialized.h:
 
-C:\msys64\mingw64\x86_64-w64-mingw32\include\synchapi.h:
-
-C:\msys64\mingw64\include\c++\11.2.0\bits\stl_vector.h:
+C:\msys64\mingw64\include\c++\11.2.0\ios:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vlintrin.h:
 
@@ -682,6 +710,70 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\wincon.h:
 C:\msys64\mingw64\include\c++\11.2.0\typeinfo:
 
 C:\msys64\mingw64\include\c++\11.2.0\bits\nested_exception.h:
+
+C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\xopintrin.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\ios_base.h:
+
+C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\vpclmulqdqintrin.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\locale_classes.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\locale_classes.tcc:
+
+C:\msys64\mingw64\include\c++\11.2.0\system_error:
+
+C:\msys64\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\error_constants.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\streambuf:
+
+C:\msys64\mingw64\x86_64-w64-mingw32\include\synchapi.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\stl_vector.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\streambuf.tcc:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\basic_ios.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\locale_facets.h:
+
+C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vbmi2intrin.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\cwctype:
+
+C:\msys64\mingw64\x86_64-w64-mingw32\include\wctype.h:
+
+C:\msys64\mingw64\x86_64-w64-mingw32\include\propidl.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_base.h:
+
+C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vp2intersectintrin.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\streambuf_iterator.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_inline.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\ostream.tcc:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\istream.tcc:
+
+H:\OneDrive\Dokumente\GitHub\httpsRequests\include\httpsRequests.h:
+
+C:\msys64\mingw64\x86_64-w64-mingw32\include\psdk_inc\_ip_types.h:
+
+C:\msys64\mingw64\x86_64-w64-mingw32\include\threadpoollegacyapiset.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\vector:
+
+C:\msys64\mingw64\include\c++\11.2.0\array:
+
+C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\tmmintrin.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\utility:
+
+C:\msys64\mingw64\x86_64-w64-mingw32\include\dde.h:
+
+C:\msys64\mingw64\include\c++\11.2.0\bits\stl_relops.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\errhandlingapi.h:
 
@@ -835,8 +927,6 @@ C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\xmmintrin.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\emmintrin.h:
 
-C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\tmmintrin.h:
-
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\smmintrin.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avxintrin.h:
@@ -867,8 +957,6 @@ C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\gfniintrin.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vpopcntdqintrin.h:
 
-C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vbmi2intrin.h:
-
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\vaesintrin.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vbmi2vlintrin.h:
@@ -879,8 +967,6 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\securityappcontainer.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vnnivlintrin.h:
 
-C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vp2intersectintrin.h:
-
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512vp2intersectvlintrin.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\winsock.h:
@@ -888,8 +974,6 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\winsock.h:
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\shaintrin.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\fmaintrin.h:
-
-C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\vpclmulqdqintrin.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\avx512bf16vlintrin.h:
 
@@ -908,8 +992,6 @@ C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\keylockerintrin.h:
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\mm3dnow.h:
 
 C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\fma4intrin.h:
-
-C:\msys64\mingw64\lib\gcc\x86_64-w64-mingw32\11.2.0\include\xopintrin.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\pshpack2.h:
 
@@ -985,8 +1067,6 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\winnetwk.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\cderr.h:
 
-C:\msys64\mingw64\x86_64-w64-mingw32\include\dde.h:
-
 C:\msys64\mingw64\x86_64-w64-mingw32\include\lzexpand.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\nb30.h:
@@ -1030,8 +1110,6 @@ C:\msys64\mingw64\x86_64-w64-mingw32\include\servprov.h:
 C:\msys64\mingw64\x86_64-w64-mingw32\include\msxml.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\oaidl.h:
-
-C:\msys64\mingw64\x86_64-w64-mingw32\include\propidl.h:
 
 C:\msys64\mingw64\x86_64-w64-mingw32\include\oleauto.h:
 

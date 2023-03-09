@@ -10,123 +10,124 @@
 *
 */
 
+
+/*******************************************************************
+ * Includes
+********************************************************************/
+
 #include <string>
 using std::string;
 
 #include <vector>
 using std::vector;
 
-#include <exception>
-using std::exception;
-
+#include <array>
+using std::array;
 
 #include "curl/curl.h"
 
-class EXC_CURL : public std::exception {
+
+
+/*******************************************************************
+ * Definitions
+********************************************************************/
+
+/*!
+ * @brief Class for a single https request
+ * 
+ */
+class httpsRequest{
+
 	public:
-	virtual const char* what() { return "CURL: Something went wrong!"; }
+
+		/*!
+		 * @brief Enumeration for SSL verification types
+		 * 
+		 */
+		enum SSL_TYPE{
+			NONE,
+			VERIFY_PEER,
+			VERIFY_HOST,
+			VERIFY_PEER_HOST
+		};
+
+		/*!
+		 * @brief Construct a request with POST method
+		 * 
+		 * @param url Target URL
+		 * @param header_v Vector with header fields. Each element like "Content-Type: application/json"
+		 * @param postData Post data as string
+		 * @param sslType SSL type
+		 */
+		httpsRequest( const string url, const vector<string> header_v, const string postData, const SSL_TYPE sslType = NONE );
+
+		/*!
+		 * @brief Construct a request with GET method
+		 * 
+		 * @param url Target URL
+		 * @param header_v Vector with header fields. Each element like "Content-Type: application/json"
+		 * @param getData Get as vector of key-value pairs
+		 * @param sslType SSL type
+		 */
+		httpsRequest( const string url, const vector<string> header_v, const vector<array<string, 2>> getData, const SSL_TYPE sslType = NONE );
+
+		/*!
+		 * @brief Get the response string
+		 * 
+		 * @return string Resonse string
+		 */
+		string getResponseString( void ) const;
+
+		/*!
+		 * @brief Check if request succeeded
+		 * 
+		 * @return true When successful
+		 * @return false Otherwise
+		 */
+		bool requestSucceeded ( void ) const;		
+
+
+	private:
+
+		/*!
+		 * @brief Construct a request
+		 * 
+		 * @param header_v Vector with header fields. Each element like "Content-Type: application/json"
+		 * @param type SSL type
+		 */
+		httpsRequest( const vector<string> header_v, const SSL_TYPE type );
+
+		/*!
+		 * @brief Perform request
+		 * 
+		 */
+		void performRequest( void );
+
+		/*!
+		* @brief Write callback for curl. Gets called when received data needs to be stored
+		* @details https://curl.se/libcurl/c/CURLOPT_WRITEFUNCTION.html
+		* 
+		* @param ptr Pointer to the received data
+		* @param size Always 1
+		* @param nmemb Size of data
+		* @param userdata Pointer to a vector<char> object
+		* @return size_t Bytes taken care of
+		*/
+		static size_t write_callback( const char* const ptr, const size_t size, const size_t nmemb, void* const userdata );
+
+
+	private:
+
+		static bool CURL_INITIALISED;		/*!<Flag for CURL initialisation*/
+
+		bool success;						/*!<Flag for request success*/
+
+		CURL* curlHandle;					/*!<CURL handle*/
+		curl_slist* header;					/*!<CURL header*/
+
+		vector<char> response;				/*!<Response*/
+		
 };
 
-class CURL_INIT : public EXC_CURL {
-	public:
-	const char* what() override { return "CURL: Initialisation failed!"; }
-};
-
-class CURL_CHAR_WRITE : public EXC_CURL {
-	public:
-	const char* what() override { return "CURL: Write callback during curl_easy_perform() failed!"; }
-};
-
-class CURL_OPT_SET : public EXC_CURL {
-	public:
-	const char* what() override { return "CURL: Setting options failed!"; }
-};
-
-class CURL_PERFORM : public EXC_CURL {
-	public:
-	const char* what() override { return "CURL: Perform failed!"; }
-};
-
-class CURL_OTHER : public EXC_CURL {
-	public:
-	const char* what() override { return "CURL: Something went wrong!"; }
-};
-
-static bool CURL_INITIALISED = false;
-
-
-static size_t write_callback( char* ptr, size_t size, size_t nmemb, void* userdata ) {
-
-	try {
-		// Typecast argument
-		vector<char>* data = (vector<char>*) userdata;
-
-		// Iterate through data pointer ptr
-		size_t i = 0;
-
-		for (i = 0; i < size * nmemb; i++) { data->push_back( ptr[i] ); }
-
-		return i;
-	}
-	catch ( ... ) {
-		throw CURL_CHAR_WRITE();
-	}
-}
-
-vector<char> request_POST( const string url, const vector<string> v_header, const string data ) {
-
-	if( !CURL_INITIALISED ){
-		CURL_INITIALISED = true;
-		curl_global_init( CURL_GLOBAL_ALL );
-	}
-
-	// Initialize CURL
-	CURL* curlHandle = curl_easy_init();
-	if (curlHandle == NULL) throw CURL_INIT();
-
-	// Linked list for header
-	struct curl_slist* header = NULL;
-
-
-	/*
-		Set up request
-	*/
-
-	// URL
-	if (curl_easy_setopt( curlHandle, CURLOPT_URL, url.c_str() ) != CURLE_OK) throw CURL_OPT_SET();
-
-	// Skip SSL verifications
-	if (curl_easy_setopt( curlHandle, CURLOPT_SSL_VERIFYPEER, 0L ) != CURLE_OK) throw CURL_OPT_SET();
-	if (curl_easy_setopt( curlHandle, CURLOPT_SSL_VERIFYHOST, 0L ) != CURLE_OK) throw CURL_OPT_SET();
-
-	// Header
-	for (auto const& s : v_header) {
-		header = curl_slist_append( header, s.c_str() );
-		if (header == NULL) throw CURL_OTHER();
-	}
-
-	// Build header from list
-	if (curl_easy_setopt( curlHandle, CURLOPT_HTTPHEADER, header ) != CURLE_OK) throw CURL_OPT_SET();
-
-	// JSON data
-	if (curl_easy_setopt( curlHandle, CURLOPT_POSTFIELDS, data.c_str() ) != CURLE_OK) throw CURL_OPT_SET();
-
-	// Set callback function for response
-	if (curl_easy_setopt( curlHandle, CURLOPT_WRITEFUNCTION, write_callback ) != CURLE_OK) throw CURL_OPT_SET();
-
-	// Set respone as data destination
-	vector<char> response;
-	if (curl_easy_setopt( curlHandle, CURLOPT_WRITEDATA, (void*) &response ) != CURLE_OK) throw CURL_OPT_SET();
-
-	// Perform request
-	CURLcode res = curl_easy_perform( curlHandle );
-	if (res != CURLE_OK) throw CURL_PERFORM();
-
-	// Cleanup
-	curl_easy_cleanup( curlHandle );
-	curl_slist_free_all( header );
-
-	return response;
-}
 
 #endif

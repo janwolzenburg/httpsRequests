@@ -8,14 +8,10 @@ using std::string;
 
 int main( int argc, char* argv[] ) {
 
-    const string url{ "https://google.com" };
-    const string postData{ "data" };
-    const vector<string> header{ "" };
+    const string url{ "https://www.google.com" };
+    httpsRequest req{ url, vector<string>{}, vector<array<string, 2>> {}, httpsRequest::SSL_TYPE::NONE };
 
-    vector<char> response = request_POST( url, header, postData );
-    string responseStr { response.begin(), response.end() };
-
-    std::cout << responseStr;
+    std::cout << req.getResponseString();
 
     return 0;
 }
