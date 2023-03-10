@@ -1,32 +1,20 @@
-
-Prerequisits
-Microsoft Visual Studio: Desktop Development with C++ (such as, Visual Studio 2019 or 2022)
-Strawberry Perl: A perl environment for Microsoft Windows (Required to build OpenSSL)
-Netwide Assembler (NASM): An assembler for the x86 CPU architecture (Required to build OpenSSL)
+#httpsRequest
+Simple library for HTTP/HTTPS requests with GET or POST method based on libcurl.
 
 
-Building openssl on windows
-Get the source: git clone https://github.com/openssl/openssl
-Install NASM and PERL. Verify that their directories are in %PATH%
-Open xYZ Native Tools Promt
-change dir to openssl root directory
-perl Configure VC-WIN64A --prefix=DIR
-DIR is the directory the libraries will be stored
-nmake
-nmake install
+#Prerequisits
+##CURL
+To use this library you need the curl library. You can build it yourself or <a href = 'https://curl.se/download.html'>download</a> a package.
+You will need to modify the CURL_DIR variable in the CMakeLists.txt. Its value must be the path to the downloaded or build curl package.
 
-Bulding zlib
-Get the source: git clone https://github.com/madler/zlib
-Run xYZ Native Tools Command Prompt for Visual Studio
-cd zlib
-nmake /f win32/Makefile.msc 
-Library and header files are in the root directory 
-Create include and lib directory and move header and libreary files
-
-
-Building curl
-get source: https://curl.se/download.html
-Run xYZ Native Tools Command Prompt for Visual Studio
-change dir into curl root directory
-nmake /f Makefile.vc mode=static MACHINE=x64 WITH_SSL=static SSL_PATH=OPENSSL_PATH WITH_ZLIB=static ZLIB_PATH=ZLIB_PATH
+#Usage
+Construct a httpsRequest object. Its parameters a the URL, the header, data and SSL type.
+##URL
+The URL will not get processed in any way by the library. Only the GET data will be appended.
+##Header
+The custom header is given by a vector of strings ("key: value").
+##Data
+Data is either a string which will perform a POST request with the given string as data. When a vector of 2-element string array is given a GET request is performed. Each element of the vector will be appended to the URL.
+##SSl Type
+Type of SSL. Available types are NONE, VERIFY_PEER, VERIFY_HOST and VERIFY_PEER_HOST. SSL is not tested!
 
