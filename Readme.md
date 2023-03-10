@@ -18,3 +18,5 @@ Data is either a string which will perform a POST request with the given string 
 ##SSl Type
 Type of SSL. Available types are NONE, VERIFY_PEER, VERIFY_HOST and VERIFY_PEER_HOST. SSL is not tested!
 
+#Examples
+There are two examples available. One with a simple request. And another one which requests JSON content with JSON content.
