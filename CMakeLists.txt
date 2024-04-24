@@ -1,4 +1,4 @@
-cmake_minimum_required( VERSION 3.2 )
+cmake_minimum_required( VERSION 3.6 )
 project( httpsRequests CXX )
 
 set( CMAKE_C_STANDARD 11 )
@@ -9,7 +9,7 @@ add_library( httpsRequests STATIC ${sources} )
 target_include_directories( httpsRequests PUBLIC ${CMAKE_SOURCE_DIR}/include )
 
 # Modify!
-set( CURL_DIR ${CMAKE_SOURCE_DIR}/../curl-7.88.1_2-win64-mingw )
+set( CURL_DIR ${CMAKE_SOURCE_DIR}/../../Bibliotheken/curl-8.6.0_7-win64-mingw )
 
 target_include_directories( httpsRequests PUBLIC ${CURL_DIR}/include )
 find_library( CURL NAMES libcurl PATHS ${CURL_DIR} )

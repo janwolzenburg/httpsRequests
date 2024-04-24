@@ -9,9 +9,9 @@ using std::string;
 int main( int argc, char* argv[] ) {
 
     const string url{ "https://www.google.com" };
-    httpsRequest req{ url, vector<string>{}, vector<array<string, 2>> {}, httpsRequest::SSL_TYPE::NONE };
+    HTTPSRequest req{ url, vector<string>{}, vector<pair<string, string>>{}, HTTPSRequest::SSL_Type::NONE };
 
-    std::cout << req.getResponseString();
+    std::cout << req.GetResponseString();
 
     return 0;
 }

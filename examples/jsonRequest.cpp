@@ -19,9 +19,9 @@ int main( int argc, char* argv[] ) {
     const string postData{ "{ \"Login\": { \"username\": \"heinz.meinz@musterstadt.de\", \"password\": \"string\", \"jwt\": false } }" };
 
 
-    httpsRequest req{ url, header, postData, httpsRequest::SSL_TYPE::VERIFY_HOST };
+    HTTPSRequest req{ url, header, postData, HTTPSRequest::SSL_Type::VERIFY_HOST };
 
-    std::cout << req.getResponseString();
+    std::cout << req.GetResponseString();
 
     return 0;
 }
