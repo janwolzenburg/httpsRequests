@@ -109,8 +109,11 @@ HTTPSRequest::HTTPSRequest( const vector<string> header_v, const SSL_Type type )
 }
 
 HTTPSRequest::~HTTPSRequest( void ){
-    curl_easy_cleanup( curl_handle_ );
-	curl_slist_free_all( curl_header_ );
+    if( curl_handle_ != nullptr )
+        curl_easy_cleanup( curl_handle_ );
+	
+    if( curl_header_ != nullptr )
+        curl_slist_free_all( curl_header_ );
 }
 
 void HTTPSRequest::PerformRequest( void ){
@@ -122,6 +125,9 @@ void HTTPSRequest::PerformRequest( void ){
 	// Cleanup
 	curl_easy_cleanup( curl_handle_ );
 	curl_slist_free_all( curl_header_ );
+
+    curl_handle_ = nullptr;
+    curl_header_ = nullptr;
 
     request_success_ = true;
 
